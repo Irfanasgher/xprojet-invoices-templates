@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>CE</title>
+
+    <style>
+      p{
+        margin-block-start: 0em !important;
+        margin-block-end: 0em !important;
+      }
+      .color-gray{
+        font-weight: 600;
+      }
+      .color-black{
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .color-black span{
+        font-weight: 600;
+      }
+      .first-input{
+        width: 80%;
+        height: 40px;
+      }
+      .second-input{
+        width: 80%;
+        height: 40px;
+      }
+      .dotted{
+        border: 1px dashed black;
+        padding: 10px;
+      }
+      .titre{
+        border: 2px solid black;
+        padding: 20px;
+        text-align: center;
+      }
+      .summaire{
+        position: relative;
+        background-color: #194D6F;
+        width: 100%;
+        height: 500px;
+        box-shadow: 1px 1px 5px;
+      }
+      .summaire .image{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .summaire .number-container{
+        margin-left: 150px;
+        margin-top: 100px;
+      }
+      .summaire h1{
+        text-align: center;
+        color: white;
+        margin-top: -50px;
+      }
+      .summaire .text-container{
+        position: relative;
+        margin-top: 10px;
+      }
+      .summaire .text-container .number{
+        height: 50px;
+        width: 40px;
+        background-color: white;
+      }
+      .summaire .text-container .number h1{
+        color: black;
+        margin: 0;
+      }
+      .summaire .text-container h1.heading{
+        position: absolute;
+        left: 50px;
+        top: 60px;
+        font-size: 30px;
+      }
+      .point-container{
+        position: absolute;
+        top: 170px;
+        left: 530px;
+      }
+      .point-container .dotted-point{
+        border: 1px dotted white;
+        width: 70px;
+        padding: 10px ;
+        text-align: center;
+        color: white;
+        margin-top: 12px;
+      }
+      .logo{
+        position: absolute;
+        top: 230px;
+        right: 100px;
+      }
+      #votre-besion{
+        position: relative;
+        background-image: url('images/contact.PNG');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+      }
+      #votre-besion .image{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      #votre-besion .votre-container{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: -14%;
+        padding: 30px;
+        text-align: center;
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+        z-index: 11111 !important;
+      }
+      #votre-besion .context{
+        background-color: #194D6F;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        color: white;
+        z-index: 0;
+      }
+      #votre-besion .context p{
+        margin-top: 100px;
+      }
+      #votre-besion .context .para{
+        position: absolute;
+        bottom: 0;
+        text-align: left;
+        margin-left: 15px;
+      }
+      
+      #votre-objective .dashed{
+        margin-top: 10px;
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        border: 1px  dashed black;
+
+      }
+      #votre-objective  .votre-container{
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        margin-top: -55px;
+      }
+      #votre-objective .object{
+        background-color: #F69200;
+        width: 100%;
+        color: white;
+      }
+      #votre-objective ul li{
+        padding-top: 20px;
+      }
+    </style>   
+     
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3">
+          <img src="images/Logo XProjets.png" alt="XProjets" height="100px" class="mt-3"/>
+          <h3 class="mt-2">Contact:</h3>
+          <div class="dotted">
+            Prenom NOM
+          </div>
+          <div class="dotted mt-2">
+            Chef de projet
+          </div>
+          <div class="dotted mt-2">
+            Prenom.com@polytechnique.edu
+          </div>
+          <div class="dotted mt-2">
+            tel
+          </div>
+        </div>
+        <div class="col-md-9">
+          <img src="images/contact.PNG" alt="XProjets" width="100%"/>
+        </div>
+
+        <div class="col-md-12">
+          <div class="titre">
+            <h1>TITRE DE LETUDE</h1>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <h3 class="mt-2">Convention dEtude </h3>
+          <div class="dotted">
+            Reference
+          </div>
+          <h2>(19.XX-CE.YY)</h2>
+        </div>
+        <div class="col-md-9">
+          <img src="images/convert.PNG" alt="XProjets" width="100%"/>
+        </div>
+        
+        <div class="col-md-12 mt-5">
+          <div class="summaire">
+            <img src="images/bgWhiteLogo.PNG" alt="XProjets" width="150px"/>
+            <img src="images/bgWhiteContent.PNG" alt="XProjets" width="150px" class="image"/>
+            <h1>SOMMAIRE</h1>
+            <div class="number-container">
+              <div class="text-container">
+                <div class="number">
+                  <h1>1</h1>
+                </div>
+                <h1 class="heading">Votre besoin</h1>
+              </div>
+              <div class="text-container">
+                <div class="number">
+                  <h1>2</h1>
+                </div>
+                <h1 class="heading">Livrable</h1>
+              </div>
+              <div class="text-container">
+                <div class="number">
+                  <h1>3</h1>
+                </div>
+                <h1 class="heading">Budget et planning</h1>
+              </div>
+              <div class="text-container">
+                <div class="number">
+                  <h1>4</h1>
+                </div>
+                <h1 class="heading">Notre equipe</h1>
+              </div> 
+              <div class="text-container">
+                <div class="number">
+                  <h1>5</h1>
+                </div>
+                <h1 class="heading">Conditions generales</h1>
+              </div> 
+            </div> 
+            <div class="point-container">
+              <div class="dotted-point">
+                <p>p.</p>
+              </div>
+              <div class="dotted-point">
+                <p>p.</p>
+              </div>
+              <div class="dotted-point">
+                <p>p.</p>
+              </div>
+              <div class="dotted-point">
+                <p>p.</p>
+              </div>
+              <div class="dotted-point">
+                <p>p.</p>
+              </div>
+            </div> 
+            <div class="logo">
+              <img src="images/whiteLogo.PNG" alt="XProjet"  height="150px"/>
+            </div>             
+          </div> 
+        </div>
+
+        <div class="col-md-12">
+          <div id="votre-besion" class="mt-5">
+            <img src="images/bgWhiteLogo.PNG" alt="XProjets" width="150px"/>
+            <img src="images/bgWhiteContent.PNG" alt="XProjets" width="150px" class="image"/>
+           
+            <div class="context">
+              <p class="mt-5 pt-5">Le contexte de votre demande et ce que vous attendez de nous.</p>
+              <div class="votre-container">
+                <h1>VOTRE BESION</h1>
+              </div>
+              <div class="para">
+                <p>Tours droits reserves.</p>
+                <p>Ce document est la propriete de XProjets. I ne saurait etre reproduit ou communique en tout ou en partie sans I'accord prealable de la Junior-Entreprise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container">
+              <h1>VOTRE BESION</h1>
+            </div>
+            <h1 class="mt-5">CONTEXTE DE LETUDE</h1>
+            <div class="dashed">
+              <p>En quelques ligne : que fait I'entreprise ? (secteur d'activite...). Definir sur quoi porte I'etude : pourquoi I'entreprise veut-elle faire cette etude ?</p>
+            </div>
+            <div class="dashed">
+              <p>En quelques ligne : que fait I'entreprise ? (secteur d'activite...). Definir sur quoi porte I'etude : pourquoi I'entreprise veut-elle faire cette etude ?</p>
+            </div>
+            <div class="object mt-3 pl-3">
+              <h1>OBJECTIFS</h1>
+            </div>
+            <div class="dashed">
+              <p>. Faire un ou plusieurs points tres precis, infos en gras</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div id="votre-besion" class="mt-5">
+            <img src="images/bgWhiteLogo.PNG" alt="XProjets" width="150px"/>
+            <img src="images/bgWhiteContent.PNG" alt="XProjets" width="150px" class="image"/>
+           
+            <div class="context">
+              <p class="mt-5 pt-5">Ce qu'XProjets s'engage a realiser pour vous.</p>
+              <div class="votre-container">
+                <h1>LIVRABLE</h1>
+              </div>
+              <div class="para">
+                <p>Tours droits reserves.</p>
+                <p>Ce document est la propriete de XProjets. I ne saurait etre reproduit ou communique en tout ou en partie sans I'accord prealable de la Junior-Entreprise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container">
+              <h1>LIVRABLES</h1>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Phase 1-Nom de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Breve description de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Phase 1-Nom de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Breve description de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Nom du liverable intermediaire </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Phase 1-Nom de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Breve description de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Phase 1-Nom de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Breve description de la phase</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Nom du liverable intermediaire </p>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container">
+              <h1>CAHIER DES CHARGES</h1>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6">
+                <div class="object mt-3 pl-3 p-2">
+                  <p>Phase 1 - recherche des sites</p>
+                </div>
+
+                <ul class="mt-5">
+                  <li>D</li>
+                  <li>D</li>
+                  <li>D</li>
+                  <li>D</li>
+                  <li>D</li>
+                  <li>D</li>
+                </ul>
+              </div>
+              <div class="col-md-6 mt-5 pt-5">
+                <div class="dotted" style="height: 300px;">
+                  <p>. Description d'un cretere, Ecrire des phrases completes au futur et mettre les mots importants en gras</p>
+                </div>
+              </div>              
+            </div>           
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div id="votre-besion" class="mt-5">
+            <img src="images/bgWhiteLogo.PNG" alt="XProjets" width="150px"/>
+            <img src="images/bgWhiteContent.PNG" alt="XProjets" width="150px" class="image"/>
+           
+            <div class="context">
+              <p class="mt-5 pt-5">Ce qu'est XProjets et quels seront vos interlocuteurs.</p>
+              <div class="votre-container">
+                <h1>NOTRE EQUIPE</h1>
+              </div>
+              <div class="para">
+                <p>Tours droits reserves.</p>
+                <p>Ce document est la propriete de XProjets. I ne saurait etre reproduit ou communique en tout ou en partie sans I'accord prealable de la Junior-Entreprise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container">
+              <h1>NOTRE EQUIPE</h1>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-6 mt-4">
+                    <div class="text-center">
+                      <img src="images/NOTRE-EQUIPE.PNG" >
+                      <h6>Theophile de BONNAVENTURE</h6>
+                      <p class="mt-4">President</p>
+                      <p>I1 supervise I'ensemble des projets de la Junior-Entreprise et en assume la responsabilite</p>
+                      <p class="mt-4">theophile.denys-debonnaventure</p>
+                      <p>@polytechnique.edu</p>
+                      <p class="mt-4">+33 6 47 97 09 30</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mt-4">
+                    <div class="text-center">
+                      <img src="images/NOTRE-EQUIPE.PNG" >
+                      <h6>Prenom NOM</h6>
+                      <p class="mt-4">Chef de Projet</p>
+                      <p>I1 assure le suivi de mission. C'est votre contact principal, qui verifie le respect des echeances et du cahier des charges.</p>
+                      <p class="mt-4">adressecdp@polytechnique.edu</p>
+                      <p class="mt-4">+ 33 Numero de telephone</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6 mt-5 pt-5">
+                <div class="row text-center">
+                  <div class="col-md-4">
+                    <img src="images/NOTRE-EQUIPE.PNG" >
+                  </div>
+                  <div class="col-md-8">
+                    <h4 class="mt-5 pt-5">Prenom NOM</h4>
+                  </div>
+                  <div class="text-center ml-5">
+                    <p class="mt-5 pt-5">Intervenant</p>
+                    <p>I1 realise le livrable et est en contact etroit avec le Chef de Projet.</p>
+                  </div>
+                </div>
+              </div>              
+            </div>           
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div id="votre-besion" class="mt-5">
+            <img src="images/bgWhiteLogo.PNG" alt="XProjets" width="150px"/>
+            <img src="images/bgWhiteContent.PNG" alt="XProjets" width="150px" class="image"/>
+           
+            <div class="context">
+              <p class="mt-5 pt-5">L'offre que nous vous proposons et dans quels delais.</p>
+              <div class="votre-container">
+                <h1>BUDGET ET PLANNING</h1>
+              </div>
+              <div class="para">
+                <p>Tours droits reserves.</p>
+                <p>Ce document est la propriete de XProjets. I ne saurait etre reproduit ou communique en tout ou en partie sans I'accord prealable de la Junior-Entreprise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container">
+              <h1>PLANNING</h1>
+            </div>
+            <p class="mt-5 mb-4">La mission commerce a la date de signature de la presente Convention sous reserve que le client ait fourni tous les eventuel documents et materiels necessaires a son commencement et a sa realisation demandes par XProjets. Ces derniers sont precises dans le cahier des charges.
+            </p>
+            <img src="images/planning.PNG" alt="XProjets" width="100%" />            
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container mb-5">
+              <h1>BUDGET</h1>
+            </div>
+            <img src="images/budget.PNG" alt="XProjets" width="100%" />            
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container mb-5">
+              <h1>PRESENTATION D'XPROJETS</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <img src="images/presentation.PNG" alt="XProjets" width="100%" /> 
+              </div>
+              <div class="col-md-8">
+                <p class="mt-4">Les Junior-Enterprises (JE) sont des associations loi 1901 a vocation economique et pedagogique, a but non lucfatif. Implantees au sein des Ecoles et universites francaises, elles permettent aux etudiants de mettre en pratique l'enseignement theorique dont ils beneficient.</p>
+                <p class="mt-1">Le titre de Junior-Enterprise est sournis a lappartenance a la Confederation Nationale des junior-Enterprises (C.N.J.E) C'est un label de qualite et de professionnalisme. En effet, la CNJE controle rigoureusement les activites de chaque J-E et impose un cadre tres strict a la realisation des etudes de maaniere a obtenir une qualite et une fiabilite irreprochables.</p>
+              </div>
+              <div class="col-md-9">
+                <p class="mt-5">XProjets, Junior-Enterprise de l'Ecole polytechnique, a pour vocation de creer des paserelles entre le monde de l'enterprise et les etudiants de l'Ecole.</p>
+                <p>A ses clients, XProjets propse la realisation d'etudes scientifiques et techniques qui, a l'image de la formation polytechnicienne, sont d'un haut niveau intellectuel et couvrent nombreux domaines de competences. Elle donne ainsi acces a un potentiel humain de pres de 1500 etudiants,</p>
+                <p>Aux etudiants de l'Ecole, XProjets offre la possibilite du travail professionnel en leur proposant de s'investir sur ses differentes missions.</p>
+              </div>
+              <div class="col-md-3 mt-5">
+                <img src="images/Logo XProjets.png" width="100%" />
+              </div>
+            </div>
+                       
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container mb-5">
+              <h1>METHODOLOGIE DE L'ETUDE</h1>
+            </div>
+            <img src="images/methodologie.PNG" alt="XProjets" width="100%" />            
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container mb-5">
+              <h1>MOYENS ET OUTILS</h1>
+            </div>
+            <img src="images/moyens.PNG" alt="XProjets" width="100%" />            
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div id="votre-besion" class="mt-5">
+            <img src="images/bgWhiteLogo.PNG" alt="XProjets" width="150px"/>
+            <img src="images/bgWhiteContent.PNG" alt="XProjets" width="150px" class="image"/>
+           
+            <div class="context">
+              <p class="mt-5 pt-5">Teste si necessaire</p>
+              <div class="votre-container">
+                <h1 style="font-size: 25px;">CONDITIONS GENERALES DE L'ETUDE</h1>
+              </div>
+              <div class="para">
+                <p>Tours droits reserves.</p>
+                <p>Ce document est la propriete de XProjets. I ne saurait etre reproduit ou communique en tout ou en partie sans I'accord prealable de la Junior-Entreprise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container mb-5">
+              <h1>CONDITIONS GENERALES</h1>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6 mt-5">
+                <p>Enter :</p>
+                <h3 class="mt-4">XProjets</h3>
+                <p>situee a l'Ecole polytechnique, 91128 Palaiseau CEDEX,</p>
+                <p class="mt-4">representee par</p>
+                <p class="mt-2">
+                  $je president_poss} <br>
+                  President$je_president fonction <br>
+                  $je_president_titre <br>
+                  $je_president_prenom <br>
+                  $je_president_nom, <br>
+                  ci-apres denommee XProjets
+                </p>
+                <p class="mt-4">D'une part,</p>
+              </div>
+              <div class="col-md-6 mt-5">
+                <p>Et:</p>
+                <h3 class="mt-4">$client societe</h3>
+                <p>situe au $client adresse, $client code postal, $client ville,</p>
+                <p class="mt-4">representee par</p>
+                <p class="mt-2">
+                  $client titre $client prenom $client_nom, $client_fonction,<br>
+                  ci-apres denommee Client
+                </p>
+                <p class="mt-4">D'une part,</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container mb-5">
+              <h1>CONDITIONS GENERALES</h1>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-8">
+                  <p>Lorem ipsum dolor sit amet, vestibulum suspendisse dui, metus sed reprehenderit nonummy, et libero adipiscing aliquet fermentum iaculis quisque, ullamcorper et in erat vestibulum pellentesque ligula, vestibulum purus. Ad lectus sed id venenatis imperdiet dolor, a volutpat tellus viverra sapien dolor velit, euismod sit, ligula dui nonummy id sed, litora nullam eget vestibulum lectus eu massa. Sagittis aliquet sagittis, at odio eget ante, ultricies odio turpis turpis sodales diam, condimentum ut ultricies. Tristique sodales aenean sed, parturient lacinia faucibus mauris, tellus lorem ridiculus consectetuer proin, eleifend elementum pellentesque mi volutpat libero. Vestibulum vestibulum mi at nullam, auctor ante a integer, at curabitur et pretium.</p>
+              </div>
+              <div class="col-md-4 text-right">
+                <img src="images/generals.PNG" alt="XProjets" height="250px" />         
+              </div>
+            </div>
+               
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <div id="votre-objective" class="mt-5">
+            <img src="images/votreObjectives.PNG" width="100%" alt="XProjets" />
+            <div class="votre-container mb-5">
+              <h1>CONDITIONS GENERALES</h1>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet, vestibulum suspendisse dui, metus sed reprehenderit nonummy, et libero adipiscing aliquet fermentum iaculis quisque, ullamcorper et in erat vestibulum pellentesque ligula, vestibulum purus. Ad lectus sed id venenatis imperdiet dolor, a volutpat tellus viverra sapien dolor velit, euismod sit, ligula dui nonummy id sed, litora nullam eget vestibulum lectus eu massa. Sagittis aliquet sagittis, at odio eget ante, ultricies odio turpis turpis sodales diam, condimentum ut ultricies. Tristique sodales aenean sed, parturient lacinia faucibus mauris, tellus lorem ridiculus consectetuer proin, eleifend elementum pellentesque mi volutpat libero. Vestibulum vestibulum mi at nullam, auctor ante a integer, at curabitur et pretium. <br>
+
+                    Fringilla ipsum, pariatur sapien, ut ornare sodales duis nulla in maecenas, ac non consequat. Leo ornare mauris dapibus. Enim tincidunt praesent nec orci varius turpis, porttitor morbi sit eget consectetuer libero, in sit aenean, sit nulla id enim tempor odio rutrum. Lacinia purus orci vitae cras, pellentesque amet donec lectus integer, turpis vitae massa eu vehicula lacus sapien, lectus nunc lacus. Vestibulum velit vestibulum vitae ultricies diam, tortor pede, sed molestie, nam nulla euismod nec odio vel, non wisi. Justo malesuada, vitae lorem enim in tempor, egestas vestibulum lobortis adipiscing cursus tempus, non ligula tincidunt vel non facilisis tellus, numquam lacus vel et ut. Rhoncus integer tellus vestibulum, proin dictum in vitae sed ac habitasse, ac vestibulum, etiam justo, orci urna viverra. Elit pellentesque id, ornare sed eros, ipsum malesuada sed etiam maecenas convallis.</p>
+              </div>
+              <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, vestibulum suspendisse dui, metus sed reprehenderit nonummy, et libero adipiscing aliquet fermentum iaculis quisque, ullamcorper et in erat vestibulum pellentesque ligula, vestibulum purus. Ad lectus sed id venenatis imperdiet dolor, a volutpat tellus viverra sapien dolor velit, euismod sit, ligula dui nonummy id sed, litora nullam eget vestibulum lectus eu massa. Sagittis aliquet sagittis, at odio eget ante, ultricies odio turpis turpis sodales diam, condimentum ut ultricies. Tristique sodales aenean sed, parturient lacinia faucibus mauris, tellus lorem ridiculus consectetuer proin, eleifend elementum pellentesque mi volutpat libero. Vestibulum vestibulum mi at nullam, auctor ante a integer, at curabitur et pretium. <br>
+
+                  Fringilla ipsum, pariatur sapien, ut ornare sodales duis nulla in maecenas, ac non consequat. Leo ornare mauris dapibus. Enim tincidunt praesent nec orci varius turpis, porttitor morbi sit eget consectetuer libero, in sit aenean, sit nulla id enim tempor odio rutrum. Lacinia purus orci vitae cras, pellentesque amet donec lectus integer, turpis vitae massa eu vehicula lacus sapien, lectus nunc lacus. Vestibulum velit vestibulum vitae ultricies diam, tortor pede, sed molestie, nam nulla euismod nec odio vel, non wisi. Justo malesuada, vitae lorem enim in tempor, egestas vestibulum lobortis adipiscing cursus tempus, non ligula tincidunt vel non facilisis tellus, numquam lacus vel et ut. Rhoncus integer tellus vestibulum, proin dictum in vitae sed ac habitasse, ac vestibulum, etiam justo, orci urna viverra. Elit pellentesque id, ornare sed eros, ipsum malesuada sed etiam maecenas convallis.</p>
+            </div>
+            </div>               
+          </div>
+        </div>
+
+        <div class="col-md-12 mt-5">
+          <img src="images/end.PNG" alt="XProjets" width="100%" />         
+         </div>
+
+      </div>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
